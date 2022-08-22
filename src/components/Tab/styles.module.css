@@ -1,0 +1,23 @@
+.root {
+    border: none;
+    background-color: #ffffff00;
+    transition: 0.1s;
+    font-size: 18px;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.root:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.root:disabled {
+    opacity: 1;
+    cursor: default;
+}
+
+.isActive {
+    font-weight: 700;
+}

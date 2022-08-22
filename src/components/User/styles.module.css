@@ -1,0 +1,22 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.lowRating {
+    color: red;
+}
+
+.normRating {
+    color: #ff8800;
+}
+
+.highRating {
+    color: green;
+}

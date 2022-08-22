@@ -1,0 +1,56 @@
+.root {
+    display: flex;
+    padding: 20px 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_prPage {
+    cursor: pointer;
+}
+
+.productName {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.actions {
+    display: flex;
+    width: 75px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.action {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.action_light{
+    border: 1px solid rgb(0 0 0 / 40%);
+}
+
+.action_dark{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: black;
+    color: white;
+}
+
+.action:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.sum {
+    width: 70px;
+    text-align: right;
+}
